@@ -1,8 +1,9 @@
-//github上をpullする方法
+//github上のファイルをpull
 git clone https://github.com/hamasakidaichi/c-
 
-//ファイルの修正
+//ファイルの修正後コミット
 git add .
 git commit -m ""
 
+//プッシュ
 git push origin master
