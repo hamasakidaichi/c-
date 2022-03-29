@@ -5,5 +5,8 @@ git clone https://github.com/hamasakidaichi/c-
 git add .
 git commit -m ""
 
+//直前のコミットメッセージの変更
+git commit -amend
+
 //プッシュ
 git push origin master
