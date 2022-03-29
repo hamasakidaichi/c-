@@ -6,6 +6,7 @@ git add .
 git commit -m ""
 
 //直前のコミットメッセージの変更
+//vimが開く　閉じるにはESCを押し、:wqで保存終了
 git commit -amend
 
 //プッシュ
