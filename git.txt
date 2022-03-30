@@ -11,3 +11,15 @@ git commit -amend
 
 //プッシュ
 git push origin master
+
+//新規ブランチの作成&切り替え
+git checkout -b ブランチ名
+(git branch ブランチ名　→　git checkout ブランチ名　と同じ動き)
+
+//現在のブランチの確認
+git branch
+
+//ブランチのマージ
+git checkout master
+git merge --no-ff サブブランチ名
+(エディタが開き、マージコミットのメッセージ入力をする)
