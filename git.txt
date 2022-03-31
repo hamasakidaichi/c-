@@ -26,3 +26,9 @@ git branch
 git checkout master
 git merge --no-ff サブブランチ名
 (エディタが開き、マージコミットのメッセージ入力をする)
+
+//urlの登録
+git remote add リモートリポジトリ名 URL
+
+//urlの変更
+git remote set-url リモートリポジトリ名 URL
